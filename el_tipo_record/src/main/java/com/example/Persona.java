@@ -20,14 +20,13 @@ suministtrar todos los parametros que el constructor espera y no tendriamos que
 respetar el orden.
 */
 
+@Builder
 
     public record Persona(
         String nombre,
         double altura,
         String apellido1,
-        String correo)
-        
-        {}
+        String correo){}
 
 
 
