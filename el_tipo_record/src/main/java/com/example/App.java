@@ -1,10 +1,13 @@
 package com.example;
 
-/**
- * Hello world!
- */
+
 public class App {
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        /* Una clase abstracta no se puede instanciar directamente
+        no se pueden crear objetos directamente tiene que ser 
+        heredada.
+        */
+        Persona persona = new Persona();
+
     }
 }
